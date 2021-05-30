@@ -1,0 +1,8 @@
+{
+  "token": "tokenbot",
+  "servers": ["id servar", "id servar"],
+  "roleName": "babaalfa",
+  "colors": 12,
+  "speed": 1000,
+  "logging": true
+}
