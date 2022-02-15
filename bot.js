@@ -855,4 +855,4 @@ client.on("message", message => {
 });
 
 
-client.login("toknbot")
+client.login("ODc5MzkyNTA5NDAxMzY2NTQ4.YSPEGA.tM04aJQvqBv_4vXpV3l2WR7Nj-Q")
