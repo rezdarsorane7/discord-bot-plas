@@ -606,12 +606,11 @@ client.on("message", message => {
           true
         )
         .addField("``servers``", [client.guilds.size], true)
-        .addField("``channels``", `[ ${client.channels.size} ]`, true)
         .addField("``Users``", `[ ${client.users.size} ]`, true)
         .addField("``My Name``", `[ ${client.user.tag} ]`, true)
         .addField("``My ID``", `[ ${client.user.id} ]`, true)
         .addField("``My Prefix``", `[ a! ]`, true)
-        .addField("``My Language``", `[ Java Script ]`, true)
+        .addField("``My Language``", `[ github ]`, true)
         .setFooter("By | ALFA ")
     });
   }
@@ -639,8 +638,7 @@ a!invite
 a!about
 a!server 
 
-Best Discord __AntiSpam__
-Best Discord __AntiShare Everyone & Here & Link .__`;
+Best Discord __alfa__`;
     var addserver = `https://discordapp.com/oauth2/authorize?client_id=${client.user.id}&scope=bot&permissions=2080374975`;
     var SUPPORT = `https://discord.gg/XpuNszK`;
     let embed = new Discord.RichEmbed()
@@ -662,7 +660,7 @@ client.on("message", m => {
   if (m.content === "a!linkbot") {
     let Dashboard = " ";
     var addserver =
-      "https://discord.com/api/oauth2/authorize?client_id=743261617625497621&permissions=8&scope=bot ";
+      "https://discord.com/api/oauth2/authorize?client_id=748614935264755714&permissions=8&scope=bot ";
     var SUPPORT = "   ";
     let embed = new Discord.RichEmbed(`By ALFA`).setTitle(`لینکی بۆت`)
       .setDescription(`                                                                                                               
