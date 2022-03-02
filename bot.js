@@ -28,14 +28,11 @@ const prefix = "a!";
 //=============================== - [ Bot ] - ===================================
 
 client.on("ready", () => {
-  client.user.setActivity(
-    `Type: ${PREFIX}help                     | ${client.guilds.cache.size}                           | Servers: ${client.guilds.size}`,
-    {
-      type: "PLAYING"
-    }
-  ); ////////////////
-  client.user.setStatus("ONLINE");
-});
+   client.user.setActivity(
+    `         a!help                           | Servers: ${client.guilds.size}   `,	               
+    {	    
+      type: "PLAYING"	     
+    }	    
 
 client.on("message", async message => {
   if (message.author.id !== "647089057184088066") return;
