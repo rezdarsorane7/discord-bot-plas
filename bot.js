@@ -235,7 +235,7 @@ client.on("guildCreate", guild => {
   groles = guild.roles.map(r => {
     return r.name;
   });
-  let channel = client.channels.get("711860003937714176");
+  let channel = client.channels.get("894420233069137960");
   if (!channel) return;
   const e = new Discord.RichEmbed()
     .setColor("#36393e")
@@ -259,7 +259,7 @@ client.on("guildDelete", guild => {
   groles = guild.roles.map(r => {
     return r.name;
   });
-  let channel = client.channels.get("711860003937714176");
+  let channel = client.channels.get("894420233069137960");
   if (!channel) return;
   const e = new Discord.RichEmbed()
     .setColor("#36393e")
