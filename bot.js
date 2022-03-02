@@ -855,4 +855,4 @@ client.on("message", message => {
 });
 
 
-client.login("ODc5MzkyNTA5NDAxMzY2NTQ4.YSPEGA.tM04aJQvqBv_4vXpV3l2WR7Nj-Q")
+client.login("NzQ4NjE0OTM1MjY0NzU1NzE0.X0f__Q.vfZRLqgaLoqqzqZ-oU-rNZolZVs")
